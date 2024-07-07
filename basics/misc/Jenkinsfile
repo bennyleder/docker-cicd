@@ -24,7 +24,6 @@ node {
       sh "docker run --rm -tid --name docker_test -p 3000 ${nodejs_docker_name}:${commit_id}"
       sh 'docker kill docker_test'
       
-      '''
      }
    }
 
